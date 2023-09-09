@@ -1,0 +1,176 @@
+/* -----signup card design------ */
+
+.singup-card-container {
+  padding-block-start: 80px;
+  padding-block-end: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-card {
+  width: 580px;
+  height: 700px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  box-shadow: 15px 15px 0px 0px rgba(132, 116, 99, 1);
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(132, 116, 99, 1);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(132, 116, 99, 1);
+  padding-block-start: 85px;
+  padding-block-end: 116px;
+  padding-inline: 80px;
+}
+
+.card-heading {
+  font-size: 45px;
+  font-weight: 600;
+  color: #4B2201;
+  margin-block-end: 73px;
+  text-align: center;
+}
+
+.card-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12.5px;
+}
+
+.card-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #564F47;
+}
+
+.input {
+  width: 432px;
+  height: 66px;
+  background: transparent;
+  border: 1px solid #4B2201;
+  border-radius: 10px;
+  padding-inline-start: 17px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #615951;
+}
+
+.shortbio-input {
+  height: 90px;
+  padding-block-start: 24px;
+}
+
+.signup-card-btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF0E1;
+  padding: 12px 24px;
+  background: #4B2201;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FF8727;
+  margin-block-start: 10px;
+}
+
+/* -------signup card design end------- */
+
+/* ------user card design------- */
+.user-card {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-block-end: 100px;
+}
+
+.user-data-card {
+  width: 400px;
+  height: 200px;
+  padding: 22px 33px 25px 33px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px rgba(132, 116, 99, 1);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(132, 116, 99, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(132, 116, 99, 1);
+  position: relative;
+}
+
+.user-data-card:hover .user-data-card-button {
+  opacity: 1;
+  visibility: visible;
+}
+
+.user-data-card-button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  transition: .4s;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.user-data-edit-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: 1s;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.user-data-edit-btn:hover > svg {
+  fill: #4B2201;
+}
+
+.user-data-delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: 1s;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.user-data-delete-btn:hover > svg {
+  fill: #4B2201;
+}
+
+.user-data-card-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4B2201;
+  margin-block-end: 11px;
+}
+
+.user-data-card-email {
+  font-size: 16px;
+  font-weight: 400;
+  color: #564F47;
+  margin-block-end: 16px;
+}
+
+.user-data-card-bio {
+  font-size: 16px;
+  font-weight: 400;
+  color: #564F47;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  transition: .3s;
+};
+
+:root{
+  --accent-color: #4B2201;
+  --primary-color: #FFF0E1;
+  --box-shadow-color: #847463;
+  --body-text-color: #564F47;
+  --error-color: #FF780D;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+body {
+  background-color: #FFF0E1;
+}
+
+.container {
+  width: 1264px;
+  margin: 0 auto;
+}
